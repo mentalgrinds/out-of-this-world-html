@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Cambay);
+@import url(http://fonts.googleapis.com/css?family=Iceland);
+/*font-family: 'Cambay', sans-serif;
+font-family: 'Iceland', cursive;
+*/
+
+/* core elements */
+html {
+  padding: 0 15px;
+  font: 16px/1;
+  font-family: 'Cambay', sans-serif;
+  background: url(../images/eso0104a.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  color: #CFD0E0;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+/* header */
+#title {
+  padding: 0;
+  padding-left: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -.5rem;
+  font-family: 'Iceland', cursive;
+  font-size: 7rem;
+  line-height: 4rem;
+  color: #FFF;
+  text-shadow: #BCD9D7 0 0 2rem;
+  transition: all .5s ease-in-out;
+
+
+
+}
+
+#title:hover {
+  text-shadow: #FFF 0 0 4rem;
+  transition: all 1.5s ease-in-out;
+  /*font-size: 5rem;*/
+
+}
+
+#subtitle {
+  padding-left: 1.5rem;
+  background: red;
+}
+
+/* nav */
+nav {
+  font-size: 0;
+  background: #264135;
+  border-radius: 3px;
+  box-shadow: 0 3px .8rem rgba(255,255,255,.3);
+}
+
+nav a {
+  font-size: 1.2rem;
+  color: #CFD0E0;
+  text-decoration: none;
+
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1.5rem;
+  color: #CFD0E0;
+}
+
+.active {
+  background: linear-gradient(0deg, #1d3227, #1F4C35);
+}
+
+nav ul li:hover {
+  /*background-color: #81D6C1;*/
+  color: #fff;
+  background: linear-gradient(0deg, #1F4C35, #1d3227);
+  
+}
+
+.active:hover {
+  background: linear-gradient(0deg, #1d3227, #1F4C35);
+}
+
+nav ul li:hover:first-child {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+nav li a {
+  
+}
+
+nav li:hover a {
+  color: #fff;
+  /*font-size: 1.6rem;*/
+  /*transition: all .2s ease;*/
+  
+}
+
+.sub-nav ul {
+  display: none;
+  background-color: pink;
+
+}
+
+.sub-nav {
+  position: relative;
+}
+
+.sub-nav:hover ul {
+  position: absolute;
+  top: 110%;
+  left: 20px;
+  display: inline-block;
+}
+
+.main-content ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/*.main-content .nested-list {
+  display: block;
+}
+*/
+
+
+
+
+/* sections */
+
+.main-content section {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  background: rgba(37, 37, 37, 0.95);
+  border-radius: 3px;
+  box-shadow: 0 3px .8rem rgba(255,255,255,.3);
+}
+
+.main-content section .section-head {
+  clear: both;
+}
+
+.main-content section h3 {
+  margin-top: 0;
+  display: inline-block;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  box-shadow: 3px 3px .3rem rgba(255,255,255,.3);
+}
+
+.main-content span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.side-content {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  background: rgba(37, 37, 37, 0.95);
+  border-radius: 3px;
+  box-shadow: 0 3px .8rem rgba(255,255,255,.3);
+
+}
+
+
+/* footer */
+
+footer {
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  background: #3F5467;
+  border-radius: 3px;
+  box-shadow: 0 3px .8rem rgba(255,255,255,.3);
+}
